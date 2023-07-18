@@ -1,0 +1,23 @@
+{
+    "name": "giacomoto/symfony-pagination",
+    "description": "Symfony Pagination Bundle",
+    "type": "symfony-bundle",
+    "minimum-stability": "stable",
+    "version": "1.0.0",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1",
+        "doctrine/doctrine-bundle": "*",
+        "doctrine/orm": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Giacomoto\\Bundle\\GiacomotoPaginationBundle\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "giacomoto"
+        }
+    ]
+}

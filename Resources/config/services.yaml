@@ -1,0 +1,5 @@
+parameters:
+
+services:
+    Giacomoto\Bundle\GiacomotoPaginationBundle\Service\PaginationService:
+        arguments: [ '%giacomoto_pagination.default_size%', '%giacomoto_pagination.allowed_sizes%' ]
