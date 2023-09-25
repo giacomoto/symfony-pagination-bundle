@@ -16,6 +16,9 @@ GIACOMOTO_PAGINATION_ALLOWED_SIZES=5,10,25,50
 ###< giacomoto/pagination-bundle ###
 ```
 
+## Install composer package
+```composer require giacomoto/symfony-pagination```<br>
+
 ## Usage
 Entity Repository must implements ```IRepositoryHasPagination``` and use the ```TRepositoryHasPaginationTrait```.
 
